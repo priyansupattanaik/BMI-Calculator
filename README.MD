@@ -1,12 +1,14 @@
-# **BMI Calculator with Historical Data Analysis:**
+**BMI Calculator with Historical Data Analysis:**
 
 This BMI Calculator project is a Python application designed to help users calculate their Body Mass Index (BMI) and track their health over time. The application features a graphical user interface (GUI) built with Tkinter, providing an intuitive and user-friendly experience. Users can input their weight and height, calculate their BMI, categorize the results, and store the data for future reference. The application also allows users to view and clear their BMI history, providing a comprehensive tool for health monitoring.
 
 **Installation**
 
 1. Clone the repository:
-git clone https://github.com/yourusername/bmi-calculator.git
+```console
+git clone https://github.com/priyansupattanaik/bmi-calculator.git
 cd bmi-calculator
+```
 
 2. Install required libraries:
 The project uses Python's standard library, so no additional libraries are required. Ensure you have Python installed.
@@ -14,7 +16,9 @@ The project uses Python's standard library, so no additional libraries are requi
 **Usage**
 
 1. Run the application:
+    ```python
     python bmicalculator.py
+    ```
 
 2. Calculate BMI:
     Enter your name, weight in kilograms, and height in meters.
@@ -27,6 +31,8 @@ The project uses Python's standard library, so no additional libraries are requi
 
 **Project Structure:**
 
-$    bmicalculator/
+```python
+    bmicalculator/
     ├── bmicalculator.py
-    └── bmidata.csv.py$
+    └── bmidata.csv.py
+```
