@@ -1,4 +1,4 @@
-**BMI Calculator with Historical Data Analysis:**
+## **BMI Calculator with Historical Data Analysis:**
 
 This BMI Calculator project is a Python application designed to help users calculate their Body Mass Index (BMI) and track their health over time. The application features a graphical user interface (GUI) built with Tkinter, providing an intuitive and user-friendly experience. Users can input their weight and height, calculate their BMI, categorize the results, and store the data for future reference. The application also allows users to view and clear their BMI history, providing a comprehensive tool for health monitoring.
 
