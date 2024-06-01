@@ -11,7 +11,7 @@ The project uses Python's standard library, so no additional libraries are requi
 
 Usage
 1. Run the application:
-python bmicalculator.py
+    python bmicalculator.py
 
 2. Calculate BMI:
 Enter your name, weight in kilograms, and height in meters.
@@ -22,6 +22,7 @@ Click the "View BMI History" button to see the stored historical data in a new w
 The history window displays data in a table format with columns for Name, Weight, Height, BMI, and Category.
 Use the "Clear History" button in the history window to delete all stored data.
 
-Project Structure
-bmicalculator.py: Main script containing the GUI and functionality for BMI calculation and data management.
-bmidata.csv: CSV file used to store BMI data (automatically created on first run).
+Project Structure:
+    bmicalculator/
+    ├── bmicalculator.py
+    └── bmidata.csv.py
